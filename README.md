@@ -1,2 +1,0 @@
-# Tinder Bot
-
