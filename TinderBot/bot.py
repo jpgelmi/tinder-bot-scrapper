@@ -3,7 +3,7 @@ import time
 import json
 from random import randint
 
-PATH = "/Users/jp/chromedriver"
+PATH = "/Users/juanpablogelmi/chromedriver"
 SECRETS = json.load(open("secrets.json"))
 
 class Bot:
@@ -36,8 +36,8 @@ class Bot:
 
         login_btn = self.driver.find_element_by_xpath('//*[@id="loginbutton"]')
         login_btn.click()
-        time.sleep(3)
-        self.driver.switch_to_window(base_window)
+        time.sleep(5)
+        self.driver.switch_to_window(self.driver.window_handles[0])
 
         print(self.driver.title)
         time.sleep(2)
