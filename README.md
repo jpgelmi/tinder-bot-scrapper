@@ -1,4 +1,5 @@
 # Tinder Bot
+# Currently outdated ⚠️
 
 ## Abstract
 
